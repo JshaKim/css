@@ -1,0 +1,20 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-maintext {
+    color: rgb(0, 0, 0); /* 글자 색상 */
+    font-size: 40px; /* 글자 크기 */
+    font-weight: bold; /* 글자 두께 */
+    font-family: Arial, sans-serif; /* 글꼴 */
+    text-align: center; /* 텍스트 정렬 */
+}
+
+.head-subtext {
+    color: rgb(53, 65, 169); /* 글자 색상 */
+    font-size: 27px; /* 글자 크기 */
+    font-weight: bold; /* 글자 두께 */
+    font-family: Arial, sans-serif; /* 글꼴 */
+    text-align: center; /* 텍스트 정렬 */
+}

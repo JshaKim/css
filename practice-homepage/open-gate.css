@@ -1,0 +1,39 @@
+@keyframes openGateLeft {
+    0% {
+      transform: translateX(280px);
+    }
+    100% {
+      transform: translateX(25px);
+    }
+  }
+
+  @keyframes openGateRight {
+    0% {
+      transform: translateX(-260px);
+    }
+    100% {
+      transform: translateX(-25px);
+    }
+  }
+  
+.gate-left {
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 650px;
+    background-image: url(images/gate_left_1.png);
+    background-size: cover;
+    transform-origin: right center;
+    animation: openGateLeft 5s forwards;
+  }
+
+  .gate-right {
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 650px;
+    background-image: url(images/gate_right_1.png);
+    background-size: cover;
+    transform-origin: left center;
+    animation: openGateRight 5s forwards;
+  }
