@@ -1,22 +1,22 @@
-@keyframes openGateLeft {
-    0% {
-      transform: translateX(280px);
-    }
-    100% {
-      transform: translateX(10px);
-    }
+@keyframes ReopenGateLeft {
+  0% {
+    transform: translateX(80px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
   }
 
-  @keyframes openGateRight {
+  @keyframes ReopenGateRight {
     0% {
-      transform: translateX(-260px);
+      transform: translateX(-80px);
     }
     100% {
       transform: translateX(-10px);
     }
   }
   
-.gate-left {
+.stay-gate-left {
     position: absolute;
     left: 0;
     width: 500px;
@@ -27,7 +27,7 @@
     animation: openGateLeft 5s forwards;
   }
 
-  .gate-right {
+  .stay-gate-right {
     position: absolute;
     right: 0;
     width: 500px;
