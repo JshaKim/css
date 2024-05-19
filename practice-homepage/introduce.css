@@ -1,0 +1,25 @@
+@keyframes fadeInOut {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  
+  .introduce-text {
+    color: rgb(0, 0, 0); /* 글자 색상 */
+    font-size: 40px; /* 글자 크기 */
+    font-weight: bold; /* 글자 두께 */
+    font-family: Arial, sans-serif; /* 글꼴 */
+    text-align: center; /* 텍스트 정렬 */
+    animation: fadeInOut 4s forwards;
+  }
+  
+  .introduce-text1 {
+    color: rgb(0, 0, 0); /* 글자 색상 */
+    font-size: 40px; /* 글자 크기 */
+    font-weight: bold; /* 글자 두께 */
+    font-family: Arial, sans-serif; /* 글꼴 */
+    text-align: center; /* 텍스트 정렬 */
+    animation: fadeInOut 4s forwards;    
+    animation-delay: 4s;
+  }
+  
